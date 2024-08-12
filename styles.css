@@ -1,12 +1,19 @@
-/* Your CSS Code here. */
 .movieDetail
 {
+	position: relative;
+    top:20px;
+	width: 10px;
+	text-align: center;
+	font-size: 15px;
 	
 }
 .moviePic
 {
 	height: 300px;
-	width: 300px;
-	opacity: 400px;
-	
+	width: 50%;
+	opacity: 0.8;
+}
+.moviePic:hover
+{
+	opacity: 1;
 }
